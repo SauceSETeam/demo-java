@@ -2,7 +2,7 @@ name: Best Practices Tests
 
 on:
   schedule:
-    - cron: '25 * * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
   push:
     branches: [ main ]
